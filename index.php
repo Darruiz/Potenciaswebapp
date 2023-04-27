@@ -30,9 +30,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php } else { ?>
         <form method="post">
             <label for="base">Base:</label>
-            <input type="number" name="base" id="base" required><br><br>
+            <input type="number" name="base"  required><br><br>
             <label for="expoente">Expoente:</label>
-            <input type="number" name="expoente" id="expoente" required><br><br>
+            <input type="number" name="expoente"  required><br><br>
             <input type="submit" value="Calcular Potência">
         </form>
     <?php } ?>
